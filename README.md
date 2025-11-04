@@ -67,11 +67,12 @@ Commit mesajının başına bu öneklerden birini yazınız:
 - **Yayın öncesi son düzenlemeler:** `release/`
 
 #### 💡 Örnek Commit Mesajları
-```bash```
+```bash
 git commit -m "feat: yeni anomali senaryosu eklendi"
 git commit -m "fix: test hatası düzeltildi"
 git commit -m "docs: literatür özeti güncellendi"
 git commit -m "chore: klasör yapısı düzenlendi"
+```
 
 
 
