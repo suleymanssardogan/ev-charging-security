@@ -55,18 +55,24 @@ git push origin <isim>
 git pull origin main
 
 
-# Durum	Kullanılacak Örnekler Commitleriniz içine mesaj olarak en başa koyunuz
-. Yeni şey ekliyorsan	--> feature/
-. Bir hatayı düzeltiyorsan --> 	fix/
-. Sadece belge güncelliyorsan	--> docs/
-. Klasör/düzenleme yapıyorsan	--> chore/
-. Yayın öncesi son düzenlemeler	--> release/
+### 🧱 Commit Mesaj Formatı
 
-# Örnek:
-. git commit -m "feat: yeni anomali senaryosu eklendi"
-. git commit -m "fix: test hatası düzeltildi"
-. git commit -m "docs: literatür özeti güncellendi"
-. git commit -m "chore: klasör yapısı düzenlendi"
+#### Durum – Kullanılacak Örnekler
+Commit mesajının başına bu öneklerden birini yazınız:
+
+- **Yeni şey ekliyorsan:** `feat/`
+- **Bir hatayı düzeltiyorsan:** `fix/`
+- **Sadece belge güncelliyorsan:** `docs/`
+- **Klasör / düzenleme yapıyorsan:** `chore/`
+- **Yayın öncesi son düzenlemeler:** `release/`
+
+#### 💡 Örnek Commit Mesajları
+```bash
+git commit -m "feat: yeni anomali senaryosu eklendi"
+git commit -m "fix: test hatası düzeltildi"
+git commit -m "docs: literatür özeti güncellendi"
+git commit -m "chore: klasör yapısı düzenlendi"
+
 
 
 <img width="900" height="825" alt="image" src="https://github.com/user-attachments/assets/232f3aa8-d7ae-415b-b08b-a4d1380932b5" />
