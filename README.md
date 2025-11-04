@@ -1,84 +1,101 @@
-# ev-charging-security
+# ⚡ EV-Charging-Security  
+### Anomaly Detection and Security Analysis for Electric Vehicle Charging Systems  
 
-⚡ Ev Charging Security – Team Repository
+---
 
-Bu repo, elektrikli araç / şarj istasyonu güvenliği projesi için ekip çalışması amacıyla oluşturulmuştur.
-Her ekip üyesi kendi branch’inde (dalında) çalışır ve değişikliklerini oraya push eder.
-main branch sadece final sürüm içindir — doğrudan değişiklik yapılmaz.
+## 🧭 Proje Özeti  
+Bu çalışma, **elektrikli araç şarj istasyonlarında (EVSE)** kullanılan iletişim protokolleri ve güvenlik standartlarının analiz edilerek **anomali tespiti ve güvenlik zafiyetlerinin belirlenmesini** amaçlamaktadır.  
+Araştırma süreci, uluslararası standartlar (OCPP, ISO/IEC 15118, IEC 61851) ve güvenlik çerçeveleri (ISO/IEC 27001, NIST SP 800-53, GDPR) üzerine odaklanmıştır.
 
+Proje çıktıları; akademik makalelerin analiziyle oluşturulan **anomali tespit tablosu** ve **SWOT analizi** sonuçlarını içermektedir.
 
-## 📂 Proje Yapısı
-| Klasör | Açıklama |
-|--------|-----------|
-| `/simulators` | Şarj istasyonu ve araç simülatörleri |
-| `/docs` | Dokümantasyon ve literatür özetleri |
-| `/tests` | Test senaryoları ve sonuçlar |
+---
 
-> ⚠️ Bu klasörler tüm branch’lerde otomatik olarak bulunur.  
-> Her üye kendi dosyalarını uygun klasörün içine eklemelidir.
+## 🎯 Amaç  
+Elektrikli araç altyapısı büyüdükçe, şarj istasyonları potansiyel siber saldırı hedefleri haline gelmektedir.  
+Bu nedenle proje, aşağıdaki hedefleri gerçekleştirmek üzere tasarlandı:
 
-👥 Ekip Çalışma Modeli
+- 🔍 EVSE iletişim protokollerindeki güvenlik açıklarını analiz etmek,  
+- ⚙️ Mevcut güvenlik standartlarına göre zafiyetleri sınıflandırmak,  
+- 🧠 Anomali tespitine yönelik makine öğrenimi yaklaşımlarını değerlendirmek,  
+- 📊 Elde edilen bulguları SWOT analiziyle stratejik olarak yorumlamak.
 
-.Her ekip üyesi kendi adına özel bir branch açanız.
+---
 
-.Sadece kendi branch’ine push yapınız.
+## 🧩 Kullanılan Teknolojiler ve Kaynaklar  
 
-.main branch’e doğrudan commit atılmamalıdır.
+| Araç / Kaynak | Açıklama |
+|----------------|----------|
+| 🧠 **ResearchRabbit** | Akademik makaleleri keşfetmek ve ilişkisel bağlantılarını analiz etmek için kullanıldı. |
+| 🤖 **Google NotebookLM** | İngilizce makaleler yüklenerek Türkçe tablo ve SWOT analizi üretildi. |
+---
 
-.Dönem sonunda tüm branch’ler merge edilecektir.
+## 📚 İncelenen Standartlar ve Protokoller  
+- 🔌 **OCPP (Open Charge Point Protocol)**  
+- ⚡ **ISO/IEC 15118**  
+- ⚙️ **IEC 61851**  
+- 🔒 **ISO/IEC 27001**  
+- 🧱 **NIST SP 800-53**  
+- 🧾 **GDPR (General Data Protection Regulation)**  
+- 🧠 **EVSE / IoT Sistem Güvenliği İlkeleri**
 
-🔹 Branch isimlendirme formatı
-suleyman
-hilmi
-abdullah vb.
+---
 
-💻 GIT BASH Komutları
-# 1. Repoyu klonlayın
-git clone https://github.com/suleymanssardogan/ev-charging-security.git
+## 📊 1️⃣ Anomali Teşhis Tablosu  
+| Protokol / Standart | Tespit Edilen Anomali veya Güvenlik Açığı | Kullanılan Tespit Yöntemi | Tespit Edilen Sinyal / Veri | Önerilen Çözüm / Savunma | Kaynak (Yıl, Yazar) |
+|----------------------|--------------------------------------------|-----------------------------|-----------------------------|---------------------------|----------------------|
+| OCPP (Genel) | Man-in-the-Middle (MitM), Replay attacks | OCPP trafik ayrıştırıcısı (Wireshark entegreli CheckOCPP) | OCPP versiyonları (1.6, 2.0, 2.0.1) | Gerçek zamanlı paket işaretleme | Boussaha, S. et al. (2025) |
+| OCPP (Genel) | Message tampering, DoS, yetkilendirme kusurları | Aktif güvenlik analizi (paket yükü değiştirme) | OCPP yükleri, şarj cihazı ID’leri | Paket yükü değiştirme denetimi | S. R. Team (2023) |
+| EV Şarjı (T6/T7) | Enerji tüketiminde sapmalar (dolandırıcılık, arıza) | ML tabanlı CADS4CS (CatBoost, XGBoost) | Şarj seansı enerji verileri | ML modellerinin yeniden eğitimi | Cumplido, J. et al. (2022) |
+| E-Mobilite | Şebeke anomalileri | Regresyon modelleri (Decision Tree, Gradient Boosting) | Güç tüketimi verileri | IDS sistemleriyle anomali tespiti | (Yazar belirtilmemiş) |
+| EV/IoT | Zayıf kimlik doğrulama, bozuk şifreleme | Statik ve dinamik analiz | CWE-327, CWE-295 açıkları | OWASP/CWE Top 10 önlemleri | Muhammad, Z. et al. (2025) |
+| IoT/ASR | Üyelik çıkarımı (MIA) | Gölge sistem + TF-IDF denetçi | Semantik benzerlik skorları | Etiketlenmemiş üyelik tespiti | Miao, Y. et al. (2022) |
+| GDPR/IoT | Veri politikası tutarsızlıkları | IoTPrivComp (BERT + MNB) | Konum, sağlık, ödeme verileri | Veri akış tutarlılık analizi | Ahmad, J. et al. (2022) |
+| IoT Sistemleri | ROP (Kod Yeniden Kullanım) saldırıları | Fonksiyon Tabanlı ASLR (fASLR) | Rastgeleleştirme entropisi (~80) | Fonksiyonların taşınmasıyla ROP tahmin zorluğu artırımı | Shao, X. et al. (2022) |
 
-# 2. Proje dizinine girin
-cd ev-charging-security
+---
 
-# 3. Kendi adınıza bir branch oluşturun
-git checkout -b <isim>
+## 🧠 2️⃣ SWOT Analizi  
 
-# 4. Değişiklikleri ekleyin ve commit atın
-git add .
-git commit -m "feat: add anomaly scenario draft"
+| Güçlü Yönler | Zayıf Yönler | Fırsatlar | Tehditler |
+|---------------|--------------|------------|------------|
+| ✅ CheckOCPP gibi araçlar, protokol uygunluğunu gerçek zamanlı doğrular. | ❌ ISO/IEC 27001 uygulamada düşük doğruluk sağlayabilir. | 💡 Kuantum dirençli (TOPRF, Lattice-based) sistemler geliştirilebilir. | ⚠️ Kritik altyapı saldırıları (blackouts, enerji hırsızlığı). |
+| 🧩 ML tabanlı sistemler enerji anomalilerini yüksek doğrulukla tespit eder. | 📱 Mobil uygulamalarda zayıf kimlik doğrulama, hardcoded kimlik bilgileri. | ⚙️ Dinamik izolasyon sistemleri (DyPrIs). | 🔐 GDPR ihlalleri ve üyelik çıkarımı saldırıları. |
+| 🔎 IDS sistemleri sıfırıncı gün saldırılarını yakalayabilir. | 🧱 GDPR mimari eksiklikleri (veri silme, rıza yönetimi). | 🚀 OCPP aktif güvenlik denetimi ile trafik kontrolü. | 🧭 IoT gizlilik politikası tutarsızlıkları. |
 
-# 5. Kendi branch’inize push yapın
-git push origin <isim>
+---
 
+## 📦 Proje Çıktıları  
 
+| Dosya Adı | Açıklama |
+|------------|-----------|
+| 📄 **EVSE_Anomali_Tespiti_Raporu.pdf** | Rapor formatında tablo + SWOT analizi |
+| 📊 **EVSE_Anomali_Tespiti_ve_SWOT.xlsx** | Excel formatında detaylı anomali ve SWOT tablosu |
 
-# Güncellemeleri Almak İsterseniz
-git pull origin main
+---
 
+## 🧪 Sonuç  
+Bu proje, elektrikli araç şarj altyapısında kullanılan protokollerin güvenlik açıklarını ortaya koyarak **akademik temelli bir güvenlik çerçevesi** sunmaktadır.  
+OCPP ve ISO/IEC 15118 protokollerinin güvenliği, ML tabanlı tespit modelleriyle desteklenmiştir.  
+Gelecekte, kuantum dirençli şifreleme ve dinamik izolasyon tekniklerinin EV altyapısına entegre edilmesi önerilmektedir.  
 
-### 🧱 Commit Mesaj Formatı
+---
 
-#### Durum – Kullanılacak Örnekler
-Commit mesajının başına bu öneklerden birini yazınız:
+## 📚 Kaynakça  
+- Boussaha, S. et al. (2025). *CheckOCPP: Automatic OCPP Packet Dissection and Compliance Check.*  
+- Cumplido, J. et al. (2022). *Collaborative Anomaly Detection in Smart Charging Systems.*  
+- Miao, Y. et al. (2022). *Membership Inference Attacks in IoT Voice Systems.*  
+- Shao, X. et al. (2022). *Function-Based ASLR for IoT Systems.*  
+- Ahmad, J. et al. (2022). *IoT Privacy Compliance Framework (IoTPrivComp).*  
+- ISO/IEC 27001, NIST SP 800-53, IEC 61851, GDPR Resmî Standart Belgeleri.  
 
-- **Yeni şey ekliyorsan:** `feat/`
-- **Bir hatayı düzeltiyorsan:** `fix/`
-- **Sadece belge güncelliyorsan:** `docs/`
-- **Klasör / düzenleme yapıyorsan:** `chore/`
-- **Yayın öncesi son düzenlemeler:** `release/`
+---
 
-#### 💡 Örnek Commit Mesajları
-```bash
-git commit -m "feat: yeni anomali senaryosu eklendi"
-git commit -m "fix: test hatası düzeltildi"
-git commit -m "docs: literatür özeti güncellendi"
-git commit -m "chore: klasör yapısı düzenlendi"
-```
+## 👤 Katkıda Bulunanlar  
+**Muhammed Hilmi Kılavuz**  
+🎓 Fırat Üniversitesi — Yazılım Mühendisliği  
+💻 Araştırma, Analiz, Veri Hazırlığı, Raporlama  
 
-
-
-
-
-<img width="900" height="825" alt="image" src="https://github.com/user-attachments/assets/232f3aa8-d7ae-415b-b08b-a4d1380932b5" />
-
+---
 
 
