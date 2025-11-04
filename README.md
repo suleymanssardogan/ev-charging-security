@@ -69,7 +69,7 @@ git commit -m "docs: literatür özeti güncellendi"
 git commit -m "chore: klasör yapısı düzenlendi"
 
 
-<img width="1024" height="1024" alt="Gemini_Generated_Image_ie6uqmie6uqmie6u" src="https://github.com/user-attachments/assets/4a61b070-899a-4a41-af3b-6fe61346bfd5" />
+<img width="900" height="825" alt="image" src="https://github.com/user-attachments/assets/232f3aa8-d7ae-415b-b08b-a4d1380932b5" />
 
 
 
