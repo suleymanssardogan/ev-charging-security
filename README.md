@@ -65,15 +65,6 @@ Bu nedenle proje, aşağıdaki hedefleri gerçekleştirmek üzere tasarlandı:
 
 ---
 
-## 📦 Proje Çıktıları  
-
-| Dosya Adı | Açıklama |
-|------------|-----------|
-| 📄 **EVSE_Anomali_Tespiti_Raporu.pdf** | Rapor formatında tablo + SWOT analizi |
-| 📊 **EVSE_Anomali_Tespiti_ve_SWOT.xlsx** | Excel formatında detaylı anomali ve SWOT tablosu |
-
----
-
 ## 🧪 Sonuç  
 Bu proje, elektrikli araç şarj altyapısında kullanılan protokollerin güvenlik açıklarını ortaya koyarak **akademik temelli bir güvenlik çerçevesi** sunmaktadır.  
 OCPP ve ISO/IEC 15118 protokollerinin güvenliği, ML tabanlı tespit modelleriyle desteklenmiştir.  
