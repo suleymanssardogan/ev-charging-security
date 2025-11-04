@@ -75,8 +75,9 @@ git commit -m "chore: klasör yapısı düzenlendi"
 
 
 
-<img width="900" height="825" alt="image" src="https://github.com/user-attachments/assets/232f3aa8-d7ae-415b-b08b-a4d1380932b5" />
 
+
+<img width="900" height="825" alt="image" src="https://github.com/user-attachments/assets/232f3aa8-d7ae-415b-b08b-a4d1380932b5" />
 
 
 
