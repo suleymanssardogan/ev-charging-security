@@ -45,7 +45,7 @@ class AttackAnalyzer:
     def _detect_attack(self, line: str, line_num: int) -> Optional[Dict]:
         """Tek satırda saldırı tespiti"""
 
-        # 1. Credential Leak - Açık token
+        # 1. Credential Leak - Açık token (maskeli olmayan)
         token_match = re.search(r'auth token=([A-Za-z0-9]{8,})', line)
         if token_match and '*' not in token_match.group(1):
             return {
@@ -53,8 +53,32 @@ class AttackAnalyzer:
                 "line": line_num,
                 "content": line,
                 "details": f"Açık token tespit edildi: {token_match.group(1)[:8]}...",
-                "severity": "HIGH",
+                "severity": "CRITICAL",
                 "immediate_action": "Token'ı derhal iptal et ve logları temizle"
+            }
+
+        # 1.1. API Key Leak - Açık API anahtarı
+        api_key_match = re.search(r'api_key_([A-Za-z0-9]{8,})', line)
+        if api_key_match and '*' not in api_key_match.group(1):
+            return {
+                "type": "API_KEY_LEAK",
+                "line": line_num,
+                "content": line,
+                "details": f"Açık API anahtarı tespit edildi: {api_key_match.group(1)[:8]}...",
+                "severity": "CRITICAL",
+                "immediate_action": "API anahtarını derhal iptal et ve yenile"
+            }
+
+        # 1.2. Session Token Leak - Açık oturum token'ı
+        session_token_match = re.search(r'token=([A-Za-z0-9]{8,})', line)
+        if session_token_match and '*' not in session_token_match.group(1) and 'auth token=' not in line:
+            return {
+                "type": "SESSION_TOKEN_LEAK",
+                "line": line_num,
+                "content": line,
+                "details": f"Açık oturum token'ı tespit edildi: {session_token_match.group(1)[:8]}...",
+                "severity": "HIGH",
+                "immediate_action": "Oturum token'ını derhal iptal et"
             }
 
         # 2. Command Injection
@@ -134,11 +158,13 @@ class AttackAnalyzer:
         recommendations = []
         attack_types = set(a['type'] for a in attacks)
 
-        if 'CREDENTIAL_LEAK' in attack_types:
+        if any(leak_type in attack_types for leak_type in ['CREDENTIAL_LEAK', 'API_KEY_LEAK', 'SESSION_TOKEN_LEAK']):
             recommendations.extend([
                 "Log maskeleme sistemi uygula",
-                "Tüm aktif token'ları yenile",
-                "Log erişim kontrollerini artır"
+                "Tüm aktif token'ları ve API anahtarlarını yenile",
+                "Log erişim kontrollerini artır",
+                "Credential rotation politikası uygula",
+                "Debug modunu production'da devre dışı bırak"
             ])
 
         if 'COMMAND_INJECTION' in attack_types:

