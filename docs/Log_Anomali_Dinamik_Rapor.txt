@@ -1,0 +1,41 @@
+
+=== EV ŞARJ İSTASYONU LOG ANOMALİSİ DİNAMİK RAPORU ===
+Analiz Tarihi: 05.11.2025 19:52
+
+📊 GERÇEK ANALİZ SONUÇLARI:
+• İşlenen log satırı: 500
+• Tespit edilen anomali: 39
+• Anomali oranı: 7.80%
+• Risk seviyesi: CRITICAL
+
+📈 ANOMALİ TÜRÜ DAĞILIMI:
+• COMMAND_INJECTION: 9 adet (23.1%)
+• PRICE_MANIPULATION: 10 adet (25.6%)
+• CREDENTIAL_LEAK: 8 adet (20.5%)
+• UNAUTHORIZED_ACCESS: 8 adet (20.5%)
+• DOS_ATTACK: 4 adet (10.3%)
+
+🧮 DİNAMİK MATEMATİK HESAPLAMALARI:
+• LADR = (39/500) × 100 = 7.80%
+• İşlem karmaşıklığı: 250,000 operasyon
+• Optimal clustering k = √(39/2) ≈ 4
+
+⚡ PERFORMANS METRİKLERİ:
+• Bellek kullanımı: ~50000 bytes (log)
+• Sonuç boyutu: ~7800 bytes
+• İşleme hızı hedefi: >1000 satır/saniye
+
+📋 ANOMALİ ÖRNEKLER (İlk 5):
+1. COMMAND_INJECTION (Satır 7)
+   Pattern: Şüpheli komut kalıbı tespit edildi...
+2. PRICE_MANIPULATION (Satır 14)
+   Pattern: Anormal düşük fiyat: 2TL/kWh...
+3. CREDENTIAL_LEAK (Satır 54)
+   Pattern: Açık token tespit edildi: 5E9NyBSM......
+4. PRICE_MANIPULATION (Satır 70)
+   Pattern: Anormal düşük fiyat: 3TL/kWh...
+5. PRICE_MANIPULATION (Satır 83)
+   Pattern: Anormal düşük fiyat: 5TL/kWh...
+
+✅ Bu rapor 19:52:26 saatinde otomatik oluşturulmuştur.
+📁 Detaylı analiz: attack_analysis.json
