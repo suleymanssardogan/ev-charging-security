@@ -36,6 +36,12 @@ class EVCSLogSimulator:
         chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz"
         return ''.join(random.choice(chars) for _ in range(length))
 
+    def mask_credential(self, credential: str, visible_chars: int = 4) -> str:
+        """Kimlik bilgilerini maskele"""
+        if len(credential) <= visible_chars:
+            return "*" * len(credential)
+        return credential[:visible_chars] + "*" * (len(credential) - visible_chars)
+
     def generate_ip_address(self) -> str:
         """Rastgele IP adresi oluştur"""
         return f"{random.randint(192, 203)}.{random.randint(168, 172)}.{random.randint(1, 255)}.{random.randint(1, 254)}"
@@ -50,7 +56,7 @@ class EVCSLogSimulator:
         user = random.choice(self.users)
         station = random.choice(self.stations)
         token = self.generate_token()
-        masked_token = token[:3] + "*" * (len(token) - 3)
+        masked_token = self.mask_credential(token, 3)
         ip = self.generate_ip_address()
 
         event_types = [
@@ -63,6 +69,7 @@ class EVCSLogSimulator:
 
         return {
             "id": event_id,
+            "event_id": event_id,
             "timestamp": timestamp,
             "message": random.choice(event_types),
             "attack_type": None,
@@ -77,7 +84,8 @@ class EVCSLogSimulator:
 
         if attack_type == "CREDENTIAL_LEAK":
             token = self.generate_token()
-            message = f"INFO EVENT {event_id} - user={user} - auth token={token} - ip={ip} - session_start"
+            masked_token = self.mask_credential(token, 3)
+            message = f"INFO EVENT {event_id} - user={user} - auth token={masked_token} - ip={ip} - session_start"
 
         elif attack_type == "COMMAND_INJECTION":
             malicious_commands = [
@@ -93,12 +101,14 @@ class EVCSLogSimulator:
         elif attack_type == "PRICE_MANIPULATION":
             new_price = random.randint(1, 5)  # Anormal düşük fiyat
             api_key = self.generate_token(16)
-            message = f"ALERT EVENT {event_id} - admin_api - set_price station={station} price={new_price}TL/kWh - source=api_key_{api_key} - ip={ip}"
+            masked_api_key = self.mask_credential(api_key, 4)
+            message = f"ALERT EVENT {event_id} - admin_api - set_price station={station} price={new_price}TL/kWh - source=api_key_{masked_api_key} - ip={ip}"
 
         elif attack_type == "SESSION_HIJACK":
             hijacked_token = self.generate_token()
+            masked_hijacked_token = self.mask_credential(hijacked_token, 4)
             original_user = random.choice(self.users)
-            message = f"INFO EVENT {event_id} - user={user} - session_resume token={hijacked_token} - original_user={original_user} - status=hijacked - ip={ip}"
+            message = f"INFO EVENT {event_id} - user={user} - session_resume token={masked_hijacked_token} - original_user={original_user} - status=hijacked - ip={ip}"
 
         elif attack_type == "DOS_ATTACK":
             message = f"ERROR EVENT {event_id} - connection_flood from={ip} - requests_per_sec={random.randint(500, 2000)} - status=rate_limit_exceeded"
@@ -125,11 +135,25 @@ class EVCSLogSimulator:
 
         return {
             "id": event_id,
+            "event_id": event_id,
             "timestamp": timestamp,
             "message": message,
             "attack_type": attack_type,
             "is_anomaly": True
         }
+
+    def generate_logs(self, num_events: int = 500, anomaly_ratio: float = 0.15) -> List[Dict]:
+        """Log simülasyonu çalıştır"""
+        return self.simulate_logs(num_events, anomaly_ratio)
+
+    def create_anomaly_event(self, event_id: int, timestamp: datetime) -> Dict:
+        """Rastgele anomali olayı oluştur"""
+        attack_type = random.choice(self.attack_types)
+        return self.create_attack_event(event_id, timestamp, attack_type)
+
+    def create_specific_anomaly(self, attack_type: str, event_id: int, timestamp: datetime) -> Dict:
+        """Belirli tip anomali olayı oluştur"""
+        return self.create_attack_event(event_id, timestamp, attack_type)
 
     def simulate_logs(self, num_events: int = 500, attack_probability: float = 0.15) -> List[Dict]:
         """Log simülasyonu çalıştır"""
