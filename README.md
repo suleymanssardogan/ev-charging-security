@@ -286,6 +286,17 @@ Bu simülatör, CAN-BUS üzerinden geçen tüm mesajları dinler ve şifrelenmem
 
 Herhangi bir terminalde `Ctrl+C` tuşlarına basarak simülasyonu durdurabilirsiniz.
 
+### 📸 Simülatör Çalışır Durumda
+
+Aşağıdaki ekran görüntüsü, simülatörün çalışır durumunu göstermektedir. Üç terminal penceresi görülebilir:
+- **Sol Terminal**: Araç (BMS) simülatörü - Batarya şarj seviyesi yayınlıyor
+- **Orta Terminal**: Şarj istasyonu (EVSE) simülatörü - Voltaj ve akım bilgileri gönderiliyor
+- **Sağ Terminal**: Saldırgan simülatörü - CAN-BUS trafiği dinleniyor ve şifresiz veriler yakalanıyor
+
+![Simülatör Çalışır Durumda](tests/output.png)
+
+Ekran görüntüsünde görüldüğü gibi, saldırgan terminali (`attacker.py`) CAN-BUS üzerinden geçen tüm mesajları yakalayabilmekte ve şifrelenmemiş verileri (`Sifresiz Veri!`) kolayca okuyabilmektedir. Bu, CAN-BUS protokolündeki şifreleme eksikliğinin kritik bir güvenlik açığı olduğunu göstermektedir.
+
 ### 📊 Simülatör Detayları
 
 #### Gönderilen CAN Mesajları
@@ -313,19 +324,39 @@ Simülasyon sırasında CAN-BUS trafiğini analiz etmek için `candump` aracın�
 candump vcan0
 ```
 
-Bu komut, CAN-BUS üzerinden geçen tüm mesajları ham formatında gösterir. Örnek çıktı:
+Bu komut, CAN-BUS üzerinden geçen tüm mesajları ham formatında gösterir. Çıktıyı bir dosyaya kaydetmek için:
+
+```bash
+# Trafiği dosyaya kaydet
+candump vcan0 > tests/candump-$(date +%Y-%m-%d_%H%M%S).log
+```
+
+#### Log Dosyası Örneği
+
+Proje içinde örnek bir CAN-BUS trafik log dosyası bulunmaktadır: `tests/candump-2025-11-29_063929.log`
+
+Bu log dosyası, simülasyon sırasında yakalanan CAN-BUS mesajlarını içermektedir. Örnek içerik:
 
 ```
 (1764416369.673406) vcan0 200#0188200000000000
 (1764416370.229833) vcan0 100#2A00000000000000
 (1764416370.675663) vcan0 200#0189200000000000
+(1764416371.676364) vcan0 200#018E200000000000
+(1764416372.231032) vcan0 100#3700000000000000
 ```
 
-Burada:
-- İlk sütun: Zaman damgası
-- `vcan0`: CAN arayüzü
-- `200` veya `100`: Mesaj ID'si (hex)
-- `#0188200000000000`: Mesaj verisi (hex formatında)
+**Log Formatı Açıklaması:**
+- **İlk sütun**: Zaman damgası (Unix timestamp)
+- **`vcan0`**: CAN arayüzü adı
+- **`200` veya `100`**: Mesaj ID'si (hex formatında)
+  - `0x100` = Batarya durumu (BMS'den)
+  - `0x200` = Şarj voltajı/akımı (EVSE'den)
+- **`#0188200000000000`**: Mesaj verisi (8 byte, hex formatında)
+  - İlk 2 byte: Voltaj değeri (yüksek ve düşük byte)
+  - 3. byte: Akım değeri
+  - Kalan byte'lar: Boş veya ek veri
+
+Bu log dosyası, CAN-BUS trafiğinin analiz edilmesi ve güvenlik açıklarının tespit edilmesi için kullanılabilir.
 
 ### ⚠️ Önemli Notlar
 
