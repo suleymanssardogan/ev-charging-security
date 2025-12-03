@@ -58,6 +58,7 @@ class EVCSLogSimulator:
         token = self.generate_token()
         masked_token = self.mask_credential(token, 3)
         ip = self.generate_ip_address()
+        severity = random.choice(["INFO", "WARNING"])
 
         event_types = [
             f"INFO EVENT {event_id} - user={user} - auth token={masked_token} - ip={ip}",
@@ -70,6 +71,9 @@ class EVCSLogSimulator:
         return {
             "id": event_id,
             "event_id": event_id,
+            "station_id": station,
+            "event_type": "NORMAL_OPERATION",
+            "severity": severity,
             "timestamp": timestamp,
             "message": random.choice(event_types),
             "attack_type": None,
@@ -81,11 +85,12 @@ class EVCSLogSimulator:
         user = random.choice(self.users)
         station = random.choice(self.stations)
         ip = self.generate_ip_address()
+        description = ""
 
         if attack_type == "CREDENTIAL_LEAK":
             token = self.generate_token()
-            masked_token = self.mask_credential(token, 3)
-            message = f"INFO EVENT {event_id} - user={user} - auth token={masked_token} - ip={ip} - session_start"
+            description = "Kullanıcı kimlik bilgisi sızıntısı tespit edildi"
+            message = f"ALERT EVENT {event_id} - user={user} - auth token={token} - ip={ip} - session_start"
 
         elif attack_type == "COMMAND_INJECTION":
             malicious_commands = [
@@ -97,54 +102,68 @@ class EVCSLogSimulator:
             ]
             payload = random.choice(malicious_commands)
             message = f"WARN EVENT {event_id} - user={user} - command_param=\"{payload}\" - note=possible_injection - ip={ip}"
+            description = "Komut enjeksiyonu girişimi"
 
         elif attack_type == "PRICE_MANIPULATION":
             new_price = random.randint(1, 5)  # Anormal düşük fiyat
             api_key = self.generate_token(16)
             masked_api_key = self.mask_credential(api_key, 4)
             message = f"ALERT EVENT {event_id} - admin_api - set_price station={station} price={new_price}TL/kWh - source=api_key_{masked_api_key} - ip={ip}"
+            description = "Fiyat manipülasyonu tespit edildi"
 
         elif attack_type == "SESSION_HIJACK":
             hijacked_token = self.generate_token()
             masked_hijacked_token = self.mask_credential(hijacked_token, 4)
             original_user = random.choice(self.users)
             message = f"INFO EVENT {event_id} - user={user} - session_resume token={masked_hijacked_token} - original_user={original_user} - status=hijacked - ip={ip}"
+            description = "Oturum ele geçirme şüphesi"
 
         elif attack_type == "DOS_ATTACK":
             message = f"ERROR EVENT {event_id} - connection_flood from={ip} - requests_per_sec={random.randint(500, 2000)} - status=rate_limit_exceeded"
+            description = "DoS saldırısı tespit edildi"
 
         elif attack_type == "FIRMWARE_TAMPER":
             version = f"v{random.randint(1, 5)}.{random.randint(0, 9)}.{random.randint(0, 99)}"
             checksum = self.generate_token(32)
             message = f"CRITICAL EVENT {event_id} - firmware_update station={station} version={version} - checksum={checksum} - source=unknown - ip={ip}"
+            description = "Firmware manipülasyonu tespit edildi"
 
         elif attack_type == "MESSAGE_SPOOFING":
             fake_station = random.choice(self.stations)
             message = f"WARN EVENT {event_id} - message_integrity_fail station={fake_station} - spoofed_sender={ip} - original_station={station}"
+            description = "Mesaj sahteciliği şüphesi"
 
         elif attack_type == "UNAUTHORIZED_ACCESS":
             message = f"ALERT EVENT {event_id} - unauthorized_admin_access user={user} - privilege_escalation=true - ip={ip} - timestamp_anomaly=detected"
+            description = "Yetkisiz yönetici erişimi"
 
         elif attack_type == "DATA_EXFILTRATION":
             data_size = random.randint(100, 1000)
             message = f"WARN EVENT {event_id} - data_transfer user={user} - unusual_volume={data_size}MB - destination={ip} - encrypted=false"
+            description = "Veri sızıntısı girişimi"
 
         elif attack_type == "REPLAY_ATTACK":
             old_timestamp = timestamp - timedelta(hours=random.randint(1, 24))
             message = f"ERROR EVENT {event_id} - replay_detected user={user} - original_timestamp={old_timestamp.isoformat()} - current_timestamp={timestamp.isoformat()}"
+            description = "Replay saldırısı tespit edildi"
 
         return {
             "id": event_id,
             "event_id": event_id,
+            "station_id": station,
+            "event_type": "SECURITY_ALERT",
+            "severity": "CRITICAL",
             "timestamp": timestamp,
             "message": message,
+            "description": description,
             "attack_type": attack_type,
             "is_anomaly": True
         }
 
-    def generate_logs(self, num_events: int = 500, anomaly_ratio: float = 0.15) -> List[Dict]:
+    def generate_logs(self, num_events: int = 500, anomaly_ratio: float = 0.15, start_time: Optional[datetime] = None, count: Optional[int] = None) -> List[Dict]:
         """Log simülasyonu çalıştır"""
-        return self.simulate_logs(num_events, anomaly_ratio)
+        total_events = count if count is not None else num_events
+        return self.simulate_logs(total_events, anomaly_ratio, start_time=start_time)
 
     def create_anomaly_event(self, event_id: int, timestamp: datetime) -> Dict:
         """Rastgele anomali olayı oluştur"""
@@ -155,10 +174,10 @@ class EVCSLogSimulator:
         """Belirli tip anomali olayı oluştur"""
         return self.create_attack_event(event_id, timestamp, attack_type)
 
-    def simulate_logs(self, num_events: int = 500, attack_probability: float = 0.15) -> List[Dict]:
+    def simulate_logs(self, num_events: int = 500, attack_probability: float = 0.15, start_time: Optional[datetime] = None) -> List[Dict]:
         """Log simülasyonu çalıştır"""
         events = []
-        base_time = datetime.now() - timedelta(days=1)
+        base_time = start_time if start_time else datetime.now() - timedelta(days=1)
 
         for i in range(1, num_events + 1):
             timestamp = self.generate_timestamp(base_time)
