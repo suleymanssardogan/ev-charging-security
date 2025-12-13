@@ -10,6 +10,7 @@ import unittest
 import json
 import tempfile
 from datetime import datetime, timedelta
+import random
 
 # Modül yollarını ekle
 sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'simulators'))

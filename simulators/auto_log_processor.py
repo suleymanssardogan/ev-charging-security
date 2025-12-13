@@ -8,6 +8,17 @@ import subprocess
 import os
 from datetime import datetime
 
+
+class AutoLogProcessor:
+    """Simülasyon + analiz pipeline'ını çalıştıran basit yardımcı sınıf."""
+
+    def __init__(self):
+        self.started_at = datetime.now()
+
+    def run(self):
+        """Tam pipeline'ı çalıştır."""
+        return run_log_anomaly_pipeline()
+
 def run_log_anomaly_pipeline():
     """Tam log anomali pipeline'ını otomatik çalıştır"""
 
