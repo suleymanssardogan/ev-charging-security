@@ -1,0 +1,938 @@
+[GÜVENLİK IDS - SCADA] Trafo Sunucusuna (localhost:502) bağlandı.
+Veri tutarlılığı kontrol ediliyor... (Log kaydı başlatıldı)
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:14)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 116%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 65%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:16)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 116%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 65%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:18)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 117%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 66%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:20)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 117%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 66%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:22)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 117%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 66%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:24)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 118%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 67%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:26)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 118%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 67%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:28)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 119%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 68%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:30)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 119%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 68%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:32)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 119%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 68%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:34)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 120%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 69%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:36)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 120%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 69%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:38)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 120%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 69%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:40)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 121%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 70%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:42)
+Raporlanan Dijital Veri (Reg 100): 51%
+Doğrulanan Fiziksel Veri (Reg 200): 121%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 70%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:44)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 122%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 112%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:46)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 122%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 112%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:48)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 122%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 112%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:50)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 123%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 113%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:52)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 123%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 113%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:54)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 124%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 114%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:56)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 124%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 114%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:27:58)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 124%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 114%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:00)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 125%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 115%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:02)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 125%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 115%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:04)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 126%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 116%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:06)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 126%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 116%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:08)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 126%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 116%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:10)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 127%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 117%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:12)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 127%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 117%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:14)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 128%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 118%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:16)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 128%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 118%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:18)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 129%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 119%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:20)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 129%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 119%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:22)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 129%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 119%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:24)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 130%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 120%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:26)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 130%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 120%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:28)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 131%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 121%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:30)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 131%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 121%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:32)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 131%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 121%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:34)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 132%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 122%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:36)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 132%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 122%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:38)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 133%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 123%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:40)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 133%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 123%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:42)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 133%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 123%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:44)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 134%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 124%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:46)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 134%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 124%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:48)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 135%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 125%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:50)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 135%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 125%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:52)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 135%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 125%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:54)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 136%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 126%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:56)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 136%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 126%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:28:58)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 137%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 127%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:00)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 137%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 127%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:02)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 137%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 127%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:04)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 138%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 128%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:06)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 138%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 128%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:08)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 139%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 129%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:10)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 139%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 129%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:12)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 139%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 129%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:14)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 140%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 130%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:16)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 140%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 130%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:18)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 141%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 131%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:20)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 141%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 131%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:22)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 141%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 131%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:24)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 142%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 132%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:26)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 142%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 132%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:28)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 143%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 133%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:30)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 143%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 133%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:32)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 143%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 133%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:34)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 144%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 134%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:36)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 144%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 134%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:38)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 145%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 135%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:40)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 145%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 135%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:42)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 145%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 135%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:44)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 146%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 136%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:46)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 146%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 136%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:48)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 147%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 137%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:50)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 147%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 137%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:52)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 147%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 137%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:54)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 148%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 138%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:56)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 148%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 138%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:29:58)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 149%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 139%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:00)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 149%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 139%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:03)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 149%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 139%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:05)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 150%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 140%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:07)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 150%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 140%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:09)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 151%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 141%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:11)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 151%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 141%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:13)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 151%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 141%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:15)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 152%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 142%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:17)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 152%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 142%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:19)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 153%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+[FDI SALDIRISI TESPİT EDİLDİ!] - TUTARSIZLIK ALARMI!
+Fark: 143%. Operatör uyarılıyor, dijital veriye güvenme!
+GÜVENLİK ÖNLEMİ: Sistem fiziksel veriye (Güvenli Mod) geçiriliyor.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+--- SCADA KONTROL PANELI --- (2025-11-10 07:30:21)
+Raporlanan Dijital Veri (Reg 100): 10%
+Doğrulanan Fiziksel Veri (Reg 200): 153%
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
