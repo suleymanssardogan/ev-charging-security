@@ -1,0 +1,28 @@
+{
+  "name": "ocpp-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "12.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "axios": "^0.24.0",
+    "swr": "^1.0.1",
+    "recharts": "^2.1.0",
+    "lucide-react": "^0.263.1",
+    "clsx": "^1.1.1",
+    "tailwind-merge": "^1.8.0",
+    "@radix-ui/react-dialog": "^1.0.0",
+    "@radix-ui/react-tabs": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.0.0"
+  }
+}

@@ -1,0 +1,63 @@
+version: "3.9"
+services:
+  csms:
+    build:
+      context: .
+      dockerfile: ./services/csms/Dockerfile
+    ports: [ "9000:9000" ]
+    environment:
+      - OCPP_VERSION=1.6J
+      - DETECT_URL=http://detect:9300
+      - BILLING_URL=http://billing:9200
+    networks: [ labnet ]
+
+  proxy:
+    build:
+      context: .
+      dockerfile: ./services/proxy/Dockerfile
+    ports: [ "9100:9100" ]
+    environment:
+      - MODE=PASS_THROUGH # PASS_THROUGH | MANIPULATE
+      - TARGET_CSMS=ws://csms:9000
+    depends_on: [ csms ]
+    networks: [ labnet ]
+
+  cp:
+    build:
+      context: .
+      dockerfile: ./services/cp/Dockerfile
+    ports: [ "9400:9400" ]
+    environment:
+      - TARGET_WS=ws://proxy:9100/ocpp/CP_001
+      - SCENARIO=manual
+    depends_on: [ proxy ]
+    networks: [ labnet ]
+
+  billing:
+    build:
+      context: .
+      dockerfile: ./services/billing/Dockerfile
+    ports: [ "9200:9200" ]
+    environment:
+      - TARIFF_MODE=TOU
+    networks: [ labnet ]
+
+  detect:
+    build:
+      context: .
+      dockerfile: ./services/detect/Dockerfile
+    ports: [ "9300:9300" ]
+    networks: [ labnet ]
+
+  web:
+    build: ./services/web
+    ports: [ "3000:3000" ]
+    environment:
+      - API_URL=http://billing:9200
+      - DETECT_URL=http://detect:9300
+    depends_on: [ billing, detect ]
+    networks: [ labnet ]
+
+networks:
+  labnet:
+    driver: bridge
