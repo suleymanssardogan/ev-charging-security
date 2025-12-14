@@ -1,5 +1,7 @@
 # OCPP Anomaly Detection & Billing Simulation ⚡🔍
 
+![Project Banner](images/project_banner.png)
+
 **Elektrikli Araç Şarj (OCPP 1.6J/2.0.1) Kurulumlarında Fiyat ve Faturalandırma Manipülasyonlarını Tespit Etmek İçin Agent Tabanlı Simülasyon Ortamı.**
 
 Bu proje, monotoniklik ihlalleri, enerji-süre uyuşmazlıkları ve tarife manipülasyonları gibi potansiyel dolandırıcılık senaryolarını göstermek ve tespit etmek için eksiksiz bir EV şarj ekosistemini (Şarj İstasyonları, Merkezi Sistem, Faturalandırma vb.) simüle eder.
