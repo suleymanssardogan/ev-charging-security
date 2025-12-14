@@ -1,0 +1,3 @@
+timestamp,layer,source,event_type,can_id,data,label
+1765722525,CAN,ECU,START_CHARGE,0x200,01,normal
+1765722532,CAN,ATTACKER,START_CHARGE,0x200,01,anomaly
